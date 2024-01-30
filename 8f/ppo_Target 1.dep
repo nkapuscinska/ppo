@@ -1,0 +1,28 @@
+Dependencies for Project 'ppo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x64282844)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\keyboard.cpp)(0x6436BE05)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\Keyboard.h)(0x6436BC3A)
+F (.\led.cpp)(0x6436E9D8)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\led.h)(0x6436EA01)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+F (.\main.cpp)(0x6436ED29)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\stepper.h)(0x6436EB8C)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\led.h)(0x6436EA01)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\Keyboard.h)(0x6436BC3A)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\LedInv.h)(0x6436E207)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\ledpos.h)(0x6436EA75)
+F (.\stepper.cpp)(0x6436EB12)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\stepper.o --omf_browse .\stepper.crf --depend .\stepper.d)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\stepper.h)(0x6436EB8C)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\led.h)(0x6436EA01)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\Keyboard.h)(0x6436BC3A)
+F (.\LedInv.cpp)(0x6436EA02)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ledinv.o --omf_browse .\ledinv.crf --depend .\ledinv.d)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\LedInv.h)(0x6436E207)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\led.h)(0x6436EA01)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+F (.\ledpos.cpp)(0x6436EC3F)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ledpos.o --omf_browse .\ledpos.crf --depend .\ledpos.d)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\ledpos.h)(0x6436EA75)
+I (C:\Users\Natalia\Documents\Studia\PPO\c++\8f\led.h)(0x6436EA01)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)

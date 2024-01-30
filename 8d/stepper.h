@@ -1,0 +1,26 @@
+#ifndef STEPPER_H
+#define STEPPER_H
+#include "led.h"
+#include "LedInv.h"
+#include "Keyboard.h"
+
+class Stepper{
+	
+	
+	
+	private:
+	unsigned char ucInversion;
+	Led MyLed;	
+	LedInv MyLedInv;
+	Keyboard MyKeyboard;
+	
+	unsigned char ucLedIndexStep;
+	void Step(enum Step eStep);
+	
+	public:
+	void StepLeft(void);
+	void StepRight(void);
+	void SetMode(void);
+};
+#endif
+
